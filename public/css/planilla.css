@@ -1,0 +1,54 @@
+
+
+body {
+    display: flexbox;
+    background: url('https://media.fs.com/images/community/erp/KMTws_post701ojbgd5faw3FfGab.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    /* Otros estilos o propiedades según sea necesario */
+
+}
+
+header {
+    background-color: white;
+}
+
+.titulo {
+    font-size: 50px;
+    text-align: center;
+}
+
+.tabla  {
+    background-color:#32a8a6;
+
+    
+}
+
+input {
+    text-align: center;
+    border-radius: 10%
+}
+
+th {
+    font-size: 30px;
+}
+
+
+.cosas {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cosas2 {
+    text-align: center;
+    font-size: 40px;
+    border: black ;
+}
+
+
+
