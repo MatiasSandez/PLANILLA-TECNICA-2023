@@ -14,6 +14,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, './views/planilla.html'));
 });
 
+app.get('/incidencias.html', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/incidencias.html'));
+});
+
 
 
 
