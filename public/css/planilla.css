@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: inline-block;
     background: url("https://img.freepik.com/foto-gratis/bastidores-servidores-centro-datos-sala-servidores-seguridad-red-informatica-d-render-azul-oscuro-ai-generativo_1258-150894.jpg") no-repeat center center fixed;
