@@ -50,6 +50,7 @@ td {
 
 th {
     width: 18em;
+    border-width: 5px;
     font-size: 30px;
     text-align: center;
     background-color: orange;
