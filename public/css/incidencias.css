@@ -40,19 +40,21 @@ input {
 }
 
 
+tr {
+    background-color: rgb(114, 207, 156)
+
+}
 
 td {
     width: 18em;
     text-align: center;
-
-    
 }
 
 th {
     width: 18em;
     font-size: 30px;
     text-align: center;
-    background-color: orange;
+
 }
 
 
@@ -76,6 +78,7 @@ button {
 
 select {
     text-align: center;
+    font-size: 1em;
     width: 20em;
     color: red;
     font-weight: bold;
