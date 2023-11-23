@@ -1,68 +1,83 @@
-*{
+*{    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    display: inline-block;
     background: url("https://img.freepik.com/foto-gratis/bastidores-servidores-centro-datos-sala-servidores-seguridad-red-informatica-d-render-azul-oscuro-ai-generativo_1258-150894.jpg") no-repeat center center fixed;
     background-size: cover;
-    background-attachment: fixed;
-    background-color: #f0f0f0;
-    min-height: 100vh;
     font-family: 'Arial', sans-serif;
-    /* Otros estilos o propiedades según sea necesario */
-
 }
 
-header {
-    background-color: white;
-    opacity: 0.6;
+.header {
+    justify-content: center;
+    background-color: rgba(239, 239, 242, 0.5);
+    margin: 0.5em;
+    margin-bottom: 4em;
+    margin-top: 1em;
+}
+
+.header input {
+    border: solid blue 1px;
+    font-weight: bold;
+}
+
+.logo  {
+    display: flex;
+    justify-content: start;
+    height: 4.5em;
 }
 
 .titulo {
-    font-size: 60px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: -2.8em;
     opacity: 1;
 }
 
-.tabla  {
-    background-color: #03b6fc;
-}
-
-input {
-    text-align: center;
-    border-radius: 10%
-}
-
-td {
-    text-align: center;
-}
-
-th {
-    font-size: 30px;
-    text-align: center;
-}
-
-footer {
-    display: block;
-    justify-content: center;
-}
-
-div {
+.botones{
     display: flex;
     justify-content: center;
+    font-size: 3em;
+    color: black;
+    opacity: 1;
+    
 }
 
-a {
-    font-size: 30px;
+.botones button{
+    font-size: 0.4em;
+    margin: 1em;
+    border: solid black 3px;
+    border-radius: 5px;
+    width: 10em;
 }
 
-.fecha {
-    font-size: 30px;
+.botones button:hover {
+    background-color: orange;
+    color: black;
 }
 
-button {
-    color: orange;
+.tabla {
+    background-color: rgba(139, 139, 232, 0.9) ;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
 }
+
+.de8-a-16 input {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(237, 151, 151);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
