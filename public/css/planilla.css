@@ -19,14 +19,14 @@
     background-color: rgba(239, 239, 242, 0.5);
     margin: 0.5em;
     margin-top: 1em;
-    height: 8.5em;
+    height: 7.5em;
     width: 99vw;
 }
 
 .logo  {
     display: flex;
     justify-content: start;
-    height: 4.5em;
+    height: 5em;
 }
 
 .titulo {
@@ -34,7 +34,7 @@
     justify-content: center;
     font-size: 1.5em;
     font-weight: bold;
-    margin-top: -2.5em;
+    margin-top: -3.5em;
     opacity: 1;
 }
 
