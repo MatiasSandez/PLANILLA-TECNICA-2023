@@ -12,31 +12,30 @@
     background: url("https://img.freepik.com/foto-gratis/bastidores-servidores-centro-datos-sala-servidores-seguridad-red-informatica-d-render-azul-oscuro-ai-generativo_1258-150894.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Arial', sans-serif;
-    width: 98%;
-    height: 98%;
-
 }
 
 .header {
     justify-content: center;
     background-color: rgba(239, 239, 242, 0.5);
     margin: 0.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-top: 1em;
+    height: 8.5em;
+    width: 99vw;
 }
 
 .logo  {
     display: flex;
     justify-content: start;
-    height: 8em;
+    height: 4.5em;
 }
 
 .titulo {
     display: flex;
     justify-content: center;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
-    margin-top: -1em;
+    margin-top: -2.5em;
     opacity: 1;
 }
 
@@ -45,19 +44,19 @@
     justify-content: center;
     font-size: 4em;
     color: black;
-    opacity: 1;
-    
-    
+    box-shadow: black;
 }
 
 .botones button{
-    font-size: 0.4em;
+    font-size: 0.2.5em;
     font-weight: bold;
     margin: 1em;
-    border: solid black 3px;
-    border-radius: 5px;
-    width: 10em;
-    background-color: rgba(255, 255, 255, 00.5)
+    border: solid black 6px;
+    border-radius: 8px;
+    width: 12em;
+    height: 3em;
+    background-color: rgba(255, 255, 255, 00.2);
+    overflow: hidden
 }
 
 .botones button a {
@@ -70,18 +69,17 @@
     background-color: rgb(238, 84, 84) ;
 }
 
+
 .tabla {
     display: flex;
-    background-color: rgb(8, 8, 19) ;
+    background-color: rgba(148, 148, 214, 0.5);
     text-align: center;
     font-weight: bold;
-    color: black;
-    flex-wrap: nowrap;
-    
+    color: #101c32; 
 }
 
 #ZONA {
-    background-color: rgb(39, 39, 131);
+    background-color: #54b7cc;
 }
 
 
@@ -90,19 +88,17 @@
 .de8-a-16 input {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    background-color: rgb(143, 135, 135);
+    background-color: rgba(255, 255, 255, 00.5);
     border-radius: 5px;
-    width: 15em;
-    height: 2.5em;
-    text-shadow: 1em;
+    width:13em;
+    height: 2.1em;
 }
 .de8-a-16 input:hover {
     background-color: rgb(238, 84, 84) !important;
     border: solid black 5px !important;
 }
 .de8-a-16 input:focus {
-    order: solid black 5px !important;
+    background-color: rgb(238, 84, 84)  !important;
 }
 .de8-a-16 input:not(:placeholder-shown):valid {
     background-color: rgb(65, 228, 138);
@@ -113,12 +109,10 @@
 .de8-a-14 input {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    background-color: rgb(143, 135, 135);
+    background-color: rgba(255, 255, 255, 00.5);
     border-radius: 5px;
-    width: 15em;
-    height: 2.5em;
-    text-shadow: 1em;
+    width:13em;
+    height: 2.1em;
 }
 .de8-a-14 input:hover {
     background-color: rgb(238, 84, 84) !important;
@@ -135,11 +129,10 @@
 .de14-a-20 input {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    background-color: rgb(143, 135, 135);
+    background-color: rgba(255, 255, 255, 00.5);
     border-radius: 5px;
-    width: 15em;
-    height: 2.5em;
+    width:13em;
+    height: 2.1em;
 }
 .de14-a-20 input:hover {
     background-color: rgb(238, 84, 84) !important;
@@ -156,11 +149,10 @@
 .de16-a-20 input {
     text-align: center;
     font-weight: bold;
-    font-size: 1.2em;
-    background-color: rgb(143, 135, 135);
+    background-color: rgba(255, 255, 255, 00.5);
     border-radius: 5px;
-    width: 15em;
-    height: 2.5em;
+    width:13em;
+    height: 2.1em;
 }
 .de16-a-20 input:hover {
     background-color: rgb(238, 84, 84) !important;
@@ -178,10 +170,12 @@
 }
 
 .horario    {
-    font-size: 1.8em;
-    background-color: rgb(37, 55, 111);
-    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #54b7cc;
+    color: black;
 }
+
 
 
 

@@ -28,17 +28,8 @@ header {
 }
 
 .tabla  {
-    width: 100%;
+    width: 50%;
 }
-
-input {
-    border-width: 3px;
-    width: 20em;
-    text-align: center;
-
-    
-}
-
 
 tr {
     background-color: rgb(114, 207, 156)
