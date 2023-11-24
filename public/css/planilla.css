@@ -12,6 +12,8 @@
     background: url("https://img.freepik.com/foto-gratis/bastidores-servidores-centro-datos-sala-servidores-seguridad-red-informatica-d-render-azul-oscuro-ai-generativo_1258-150894.jpg") no-repeat center center fixed;
     background-size: cover;
     font-family: 'Arial', sans-serif;
+    width: 98%;
+    height: 98%;
 
 }
 
@@ -70,7 +72,7 @@
 
 .tabla {
     display: flex;
-    background-color: rgb(19, 19, 196) ;
+    background-color: rgb(8, 8, 19) ;
     text-align: center;
     font-weight: bold;
     color: black;
@@ -79,7 +81,7 @@
 }
 
 #ZONA {
-    background-color: rgb(179, 100, 27);
+    background-color: rgb(39, 39, 131);
 }
 
 
@@ -100,7 +102,7 @@
     border: solid black 5px !important;
 }
 .de8-a-16 input:focus {
-    background-color: rgb(238, 84, 84)  !important;
+    order: solid black 5px !important;
 }
 .de8-a-16 input:not(:placeholder-shown):valid {
     background-color: rgb(65, 228, 138);
@@ -177,7 +179,8 @@
 
 .horario    {
     font-size: 1.8em;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgb(37, 55, 111);
+    color: white;
 }
 
 
