@@ -80,6 +80,7 @@
     justify-content: center;
     text-align: center;
     font-weight: bold;
+    background-color: rgba(74, 182, 235, 0.5);
     color: #101c32; 
     width: 98vw;
 }
