@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/incidencias.css">
+    <title>PANEL DE CONTROL</title>
+
+</head>
+
+
+<body class="body">
+    <header class="header">
+        <div class="logo">
+            <img src="/images/Express.png" alt="Logo Express">
+        </div>
+
+        <div class="titulo">
+            <h1><figure id="fecha-actual"></figure>
+
+            <script>
+                // Obtén la fecha actual
+                const fechaActual = new Date();
+        
+                // Obten los componentes de la fecha
+                const dia = fechaActual.getDate();
+                const mes = fechaActual.getMonth() + 1; // Suma 1 ya que los meses comienzan desde 0
+                const año = fechaActual.getFullYear();
+        
+                // Formatea la fecha como desees
+                const fechaFormateada = `${dia}/${mes}/${año}`;
+        
+                // Inserta la fecha en la etiqueta con el id "fecha-actual"
+                document.getElementById('fecha-actual').innerText = `PANEL DE CONTROL  ${fechaFormateada}`;
+            </script></h1>
+
+        </div>
+
+        <div class="botones"> 
+            <button>
+                <a href="/">PLANILLA</a>
+            </button>
+            <button>
+                <a href="http://monitoreohfc.tv-sa.com.ar/">MONITOREO HFC</a>
+            </button>
+            <button>
+                <a href="http://200.81.125.175:8080/login.php?base_url=">STECH G-PON</a>
+            </button>
+            <button>
+                <a href="https://bp.express.com.ar/auth/realms/main/protocol/openid-connect/auth?client_id=dsa&redirect_uri=https%3A%2F%2Fdsa.express.com.ar%2Flogin&state=2442c784-b4dc-48bb-9449-11031653330c&response_mode=fragment&response_type=code&scope=openid&nonce=dacf1cbd-fe45-4844-aba6-001ea0436783">STECH CM</a>
+            </button>
+            <button>
+                <a href="https://drive.google.com/drive/folders/1Dr_28ndqmVRbm6p8TnGehYNgkE-A5FAx?usp=drive_link">PLANOS</a>
+            </button>
+        </div>
+    </header>
+
+    <SECtion>
+        <h2>
+            CABLE MODEMS DOCUMENTACION
+        </h2>
+        <ul>
+            <li>NIVELES DE UN CM</li>
+            <li>CONFIGURACION DE WIFI CM</li>
+            <li>CORTES DE UN CM</li>
+            <li>VALORES DE UN</li>
+            <li>INCIDENCIAS EN UNA ZONA</li>
+        </ul>
+        
+    </SECtion>
+
+    <SECtion>
+        <h2>
+            ONUS DOCUMENTACION
+        </h2>
+        <ul>
+            <li>NIVELES DE UN CM</li>
+            <li>CONFIGURACION DE WIFI CM</li>
+            <li>CORTES DE UN CM</li>
+            <li>VALORES DE UN</li>
+            <li>INCIDENCIAS EN UNA ZONA</li>
+        </ul>
+        
+    </SECtion>
+
+
+
+
+
+
+<footer class="footer">
+
+</footer>
+
+</body>
+</html>

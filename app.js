@@ -11,7 +11,11 @@ app.listen(port, () => {
 
 // HOME
 app.get('/', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/planilla.html'));
+    res.sendFile(path.resolve(__dirname, './views/home.html'));
+});
+
+app.get('/incidencias.html', (req, res) => {
+    res.sendFile(path.resolve(__dirname, './views/incidencias.html'));
 });
 
 app.get('/incidencias.html', (req, res) => {
